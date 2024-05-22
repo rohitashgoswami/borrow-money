@@ -1,0 +1,14 @@
+.friend-cricle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-left: 120px;
+    width: 50%;
+}
+
+
+
+
+
