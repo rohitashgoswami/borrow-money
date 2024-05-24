@@ -12,7 +12,7 @@ let friendOneMoney = totalMoney - friendTwoMoney;
 friendOne.innerText = friendOneMoney;
 friendTwo.innerText = friendTwoMoney;
 
-borrowButton.addEventListener('click',() => {
+borrowButton.addEventListener('click', () => {
     if(friendOneMoney >0){
         friendOneMoney -= 500;
         friendOne.innerText = friendOneMoney;
@@ -22,7 +22,7 @@ borrowButton.addEventListener('click',() => {
 
 })
 
-returnButtonButton.addEventListener('click',() => {
+returnButton.addEventListener('click', () => {
     if (friendTwoMoney > 0) {
         friendOneMoney += 500;
         friendOne.innerText = friendOneMoney;
